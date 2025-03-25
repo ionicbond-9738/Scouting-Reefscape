@@ -332,7 +332,7 @@ class _TeamOverviewPageState extends State<TeamOverviewPage> {
         currPageGauges.add(const SizedBox(width: 20));
         gaugeCount++;
 
-        if (gaugeCount >= 5) {
+        if (gaugeCount >= 4) {
           columnGauges.add(Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: currPageGauges,

@@ -15,7 +15,7 @@ void main() async {
     jsonFile.createSync(recursive: true);
   }
 
-  var (redAlliance, blueAlliance) = await getEventTeams("2025isde3", tbaAPIKey);
+  var (redAlliance, blueAlliance) = await getEventTeams("2025iscmp", tbaAPIKey);
 
   Map<String, dynamic> blueJson =
       blueAlliance.map((key, value) => MapEntry(key.toString(), value));
